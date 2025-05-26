@@ -1,0 +1,140 @@
+html {
+  list-style-type: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #cecfeb;
+}
+
+header {
+  background: #88879b;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #504f68;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin: 10px 0;
+}
+
+#secao1 {
+  text-align: center;
+  background-color: black;
+  color: #9a1bee;
+}
+
+#secao1 p {
+  color: #e2b7ff;
+}
+
+#secao2 {
+  text-align: center;
+  background: #333333;
+  color: #9a1bee;
+}
+
+#secao2 p {
+  color: #e2b7ff;
+}
+
+#secao3 {
+  text-align: center;
+  background: #555555;
+  color: #9a1bee;
+}
+
+#secao4 {
+  text-align: center;
+  background: #868686;
+  color: #570d88;
+  list-style-type: none;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #000000;
+  color: #9a1bee;
+  position: relative;
+  text-decoration: none;
+}
+
+.github {
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.instagram {
+  text-decoration: none;
+  display: inline-flex;
+}
+
+
+#navbar {
+  background-color: #727272;
+}
+
+#textNavBar .nav-item .nav-link {
+  color: rgb(160, 34, 209);
+}
+
+#navbar .navbar-brand {
+  color: rgb(138, 3, 228);
+  border-radius: 8px;
+}
+
+#navbar .navbar-brand img {
+  width: 30px;
+}
+
+#carouselExampleIndicators .carousel-inner img {
+  width: 40px;
+}
+
+#imagemEspadas {
+  display: flex;
+  justify-content: space-around;
+}
+
+#carouselExample .card {
+  background-color: #000000;
+  color: #9a1bee;
+  display: flex;
+  margin: 0 auto;
+  height: 650px;
+  
+}
+
+#carouselExample .card .btn {
+  background-color: #3c1557;
+  color: #9a1bee;
+}
+
+footer p {
+  color: rgb(98, 141, 235);
+}
+
+#carouselExample #itens-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#tudo {
+  background-color: #221e2b;
+}

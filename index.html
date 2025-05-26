@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <div id="tudo">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <!-- choose one -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+      const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+      const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))</script>
+    <link rel="stylesheet" href="landing.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav id="navbar" class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Sword art offline<img src="imgs/weapon-sword-3-512.webp" alt=""> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul id="textNavBar" class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#secao1">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#secao2">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#secao3">Espadas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#secao4">Sobre o criador</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="secao1">
+    <h1>Bem-vindo à nossa página de espadas</h1>
+    <p>A página é dedicada a mostrar os tipos diversos de espadas.</p>
+  </section>
+
+  <section id="secao2">
+    <h2>Sobre</h2>
+    <p class="espada">
+      As espadas são armas brancas que surgiram por volta de 3000a.c na idade
+      do bronze. Tem como características uma lâmina longa e empunhadura.
+    </p>
+  </section>
+
+  <section id="secao3">
+    <h2>Alguns tipo de espadas</h2>
+
+
+
+
+
+
+
+
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div id="itens-1">
+            <div class="card" style="width: 18rem;">
+              <img src="imgs/sabre.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sabre</h5>
+                <p class="card-text">Espada curva usada por cavalaria, ideal para cortes.</p>
+                <a href="https://pt.wikipedia.org/wiki/Sabre" class="btn">Ver mais</a>
+
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="o sabre se destacou nas guerras napoleônicas por seu corte eficaz em combate montado.">Curiosidade</button>
+
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="imgs/Roman_gladius-transparent.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gládio</h5>
+                <p class="card-text">Espada curta romana para estocadas rápidas.</p>
+                <a href="https://pt.wikipedia.org/wiki/Gl%C3%A1dio" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="Era a espada padrão dos legionários romanos; seu nome deu origem ao termo 
+                  gladiador">Curiosidade</button>
+
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="imgs/katana-s5013-tensa-zagetsu-ichigo-kurosaki-de-bleach-replica-no-oficial_2.webp"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Katana</h5>
+                <p class="card-text">Principal espada japonesa, caracterizada pela lâmina curva.</p>
+                <a href="https://pt.wikipedia.org/wiki/Catana" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="A katana é tradicionalmente forjada com um processo de dobra do aço que pode 
+                  chegar a mais de mil camadas.">Curiosidade</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div id="itens-1">
+            <div class="card" style="width: 18rem;">
+              <img src="imgs/pts9dnx3vt821.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Espada Bastarda</h5>
+                <p class="card-text">Versátil, pode ser usada com uma ou duas mãos.
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Espada_bastarda" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="Também chamada de espada de mão e meia, permitia uso com uma ou duas mãos, sendo versátil em combate.">Curiosidade</button>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="imgs/swordd.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Espada Medieval</h5>
+                <p class="card-text">A espada medieval é o tipo de espada mais conhecida pelo mundo
+                  sendo caracterizada pelo curto alcance, lâmina comprida e perigosa.
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Espada" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="Muitas tinham pontas reforçadas para perfurar armaduras de malha e placas, refletindo a evolução dos campos de batalha.">Curiosidade</button>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="imgs/ulf.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Espada ulfberht</h5>
+                <p class="card-text">Espada viking de aço superior, rara e valiosa.
+                </p>
+                <a href="https://en.wikipedia.org/wiki/Ulfberht_swords" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="Feita entre os séculos 9 e 11, sua liga de aço era tão avançada que só foi possível reproduzi-la com precisão na era moderna.">Curiosidade</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div id="itens-1">
+            <div class="card" style="width: 18rem;">
+              <img src="imgs/zen-espada-tai-chi-madeira-basica.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tai chi ou Jian</h5>
+                <p class="card-text">Espada reta chinesa de dois gumes, ágil e elegante.
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Espada_tai_chi" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="Considerada a “espada dos cavalheiros” na China, o jian simboliza virtude, sabedoria e equilíbrio.">Curiosidade</button>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="imgs/pirata.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cimitarra</h5>
+                <p class="card-text">Também caracterizada pela lâmina curva e típica do lado oriental do mundo, sendo
+                  mais específico, na pérsia
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Cimitarra" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="A lâmina curva da cimitarra é ideal para cortes rápidos e eficazes, especialmente em combates a cavalo no deserto.">Curiosidade</button>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="imgs/rkfdhxzjd2k81.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Espada dao</h5>
+                <p class="card-text">Espada chinesa curva, poderosa em cortes.
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Dao_(sabre)" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="Popular na China imperial, o dao é conhecido como a espada do soldado, sendo mais voltado para cortes do que estocadas.">Curiosidade</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div id="itens-1">
+            <div class="card" style="width: 18rem;">
+              <img src="imgs/4788.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Espadas Alfange</h5>
+                <p class="card-text">Espada europeia de um gume, parecida com facão.</p>
+                <a href="https://pt.wikipedia.org/wiki/Alfange_(arma)" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="De origem árabe, o alfange influenciou o design de muitas espadas europeias durante a Idade Média.">Curiosidade</button>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="imgs/duplas.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Espadas duplas</h5>
+                <p class="card-text">Como o nome ja diz, é caracterizada por ser uma arma dupla, uma em cada mão.</p>
+                <a href="https://pt.wikipedia.org/wiki/Espada" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="Usadas em artes marciais e exibições, exigem grande destreza; personagens fictícios como Darth Maul ajudaram a popularizar esse estilo.">Curiosidade</button>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="imgs/462px-Weapon_b_1010100500.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Espadas kris</h5>
+                <p class="card-text">Espada/daga asiática com lâmina ondulada e simbólica.</p>
+                <a href="https://pt.wikipedia.org/wiki/Kris" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="De origem malaia/indonésia, tem uma lâmina ondulada única, muitas vezes associada a poderes espirituais ou místicos.">Curiosidade</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+  <section id="secao4">
+    <h2>Sobre o criador</h2>
+    <p>Me chamo Lorenzo Dias, e eu criei esta página pois gosto de espadas e também por que queria informar sobre as
+      variedades de espadas pelo mundo(obs:não mostrei todas).</p>
+  </section>
+
+  <footer>
+    <p><strong>Aqui a baixo deixo minhas redes sociais para contato</strong></p>
+    <p>Email : 20233005644@estudantes.ifpr.edu.br</p>
+    <a class="github" href="https://github.com/lorenzoDias0"><i data-feather="github"></i>Github</a>
+    <a class="instagram" href="https://www.instagram.com/dias.lorenzo_/"><i data-feather="instagram"></i>Insta</a>
+  </footer>
+  <script>
+    feather.replace();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
+</body>
+
+</html>
